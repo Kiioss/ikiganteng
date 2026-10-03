@@ -5,64 +5,39 @@ body {
     color: #222222;
 }
 
-/* HEADER */
 header {
     background-color: #dbe7f6;
     padding: 24px;
     text-align: center;
-    margin-left: 220px;
 }
 
 header h1 {
     margin: 0;
 }
 
-/* NAVBAR SIDEBAR DI KIRI */
 nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 220px;
-    height: 100vh;
     background-color: #ffffff;
-    border-right: 1px solid #cccccc;
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding: 30px 15px;
+    padding: 14px;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
 }
 
-/* LINK NAVBAR */
 nav a {
-    width: 100%;
-    box-sizing: border-box;
     color: #1f4e79;
     text-decoration: none;
-    padding: 14px 10px;
-    margin-bottom: 8px;
-    text-align: center;
-    border-radius: 6px;
+    margin-right: 16px;
 }
 
-/* EFEK SAAT MOUSE DIARAHKAN */
 nav a:hover {
-    background-color: #dbe7f6;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-/* MAIN CONTENT */
 main {
     width: 90%;
     max-width: 900px;
     margin: 24px auto;
-    margin-left: calc(220px + 5%);
-    box-sizing: border-box;
 }
 
-/* SECTION */
 section {
     background-color: #ffffff;
     padding: 20px;
@@ -71,13 +46,11 @@ section {
     border-radius: 8px;
 }
 
-/* IMAGE */
 img {
     max-width: 160px;
     border-radius: 8px;
 }
 
-/* TABLE */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -88,18 +61,9 @@ th,
 td {
     border: 1px solid #cccccc;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
     background-color: #eef3f8;
-}
-
-/* FOOTER */
-footer {
-    background-color: #dbe7f6;
-    padding: 16px;
-    text-align: center;
-    margin-top: 24px;
-    margin-left: 220px;
 }
