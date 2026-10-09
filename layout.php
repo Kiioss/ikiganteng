@@ -1,3 +1,6 @@
+<?php
+require_once "auth.php";
+?>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -18,14 +21,14 @@
 
     <div class="page-layout">
 
-        <nav class="side-nav">
-            <a href="index.html">Biodata</a>
-            <a href="layout.html">Layout Experiment</a>
-            <a href="#profile">Profile</a>
-            <a href="#skills">Skills</a>
-            <a href="#goal">Learning Goal</a>
-            <a href="data_mahasiswa.php">Data Mahasiswa</a>
-        </nav>
+       <nav>
+ <a href="dashboard.php">Dashboard</a>
+ <a href="index.php">Home / Biodata</a>
+ <a href="layout.php">Layout Lab</a>
+ <a href="data_mahasiswa.php">Data Mahasiswa</a>
+ <a href="form_mahasiswa.php">Tambah Mahasiswa</a>
+ <a href="logout.php">Logout</a>
+</nav>
 
         <main>
 

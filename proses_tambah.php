@@ -1,4 +1,7 @@
 <?php
+require_once "auth.php";
+?>
+<?php
 require "koneksi.php";
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
  header("Location: form_mahasiswa.php");
