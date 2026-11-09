@@ -24,10 +24,10 @@ $result = $conn->query($sql);
     </header>
     <nav>
         <a href="../pages/dashboard.php">Dashboard</a>
-        <a href="../pages/index.php">Home / Biodata</a>
-        <a href="../pages/layout.php">Layout Lab</a>
         <a href="../pages/data_mahasiswa.php">Data Mahasiswa</a>
         <a href="../pages/form_mahasiswa.php">Tambah Mahasiswa</a>
+        <a href="../crud/index.php">CRUD Mahasiswa</a>
+        <a href="../crud-media/index.php">CRUD Media</a>
         <a href="../proses/logout.php">Logout</a>
     </nav>
     <main>

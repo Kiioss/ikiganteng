@@ -23,9 +23,6 @@ require_once __DIR__ . '/../config/auth.php';
        <nav>
  <a href="../pages/dashboard.php">Dashboard</a>
  <a href="../pages/index.php">Home / Biodata</a>
- <a href="../pages/layout.php">Layout Lab</a>
- <a href="../pages/data_mahasiswa.php">Data Mahasiswa</a>
- <a href="../pages/form_mahasiswa.php">Tambah Mahasiswa</a>
  <a href="../pages/logout.php">Logout</a>
 </nav>
 

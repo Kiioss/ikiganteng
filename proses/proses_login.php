@@ -2,7 +2,7 @@
 session_start();
 require_once __DIR__ . '/../config/koneksi.php';
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
- header("Location: login.php");
+ header("Location: ../pages/login.php");
  exit;
 }
 $username = trim($_POST["username"] ?? "");
@@ -23,6 +23,6 @@ if ($user && password_verify($password, $user["password_hash"])) {
  header("Location: ../pages/dashboard.php");
  exit;
 }
-header("Location: login.php?error=1");
+header("Location: ../pages/login.php?error=1");
 exit;
 ?>
