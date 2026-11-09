@@ -115,7 +115,7 @@ th {
 .auth-page {
  min-height: 100vh;
  display: grid;
-place-items: center;
+ place-items: center;
  padding: 24px;
 }
 .login-card {
@@ -127,6 +127,7 @@ place-items: center;
  background: #ffffff;
 }
 .form-group { margin-bottom: 18px; }
+
 .login-card label {
  display: block;
  margin-bottom: 6px;

@@ -1,5 +1,5 @@
 <?php
-require_once "auth.php";
+require_once __DIR__ . '/../config/auth.php';
 ?>
 <!DOCTYPE html>
 <html lang="id">
@@ -8,8 +8,7 @@ require_once "auth.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Experiment</title>
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
@@ -22,12 +21,12 @@ require_once "auth.php";
     <div class="page-layout">
 
        <nav>
- <a href="dashboard.php">Dashboard</a>
- <a href="index.php">Home / Biodata</a>
- <a href="layout.php">Layout Lab</a>
- <a href="data_mahasiswa.php">Data Mahasiswa</a>
- <a href="form_mahasiswa.php">Tambah Mahasiswa</a>
- <a href="logout.php">Logout</a>
+ <a href="../pages/dashboard.php">Dashboard</a>
+ <a href="../pages/index.php">Home / Biodata</a>
+ <a href="../pages/layout.php">Layout Lab</a>
+ <a href="../pages/data_mahasiswa.php">Data Mahasiswa</a>
+ <a href="../pages/form_mahasiswa.php">Tambah Mahasiswa</a>
+ <a href="../pages/logout.php">Logout</a>
 </nav>
 
         <main>
